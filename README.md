@@ -17,7 +17,9 @@ Post-earthquake: https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS
 Several references for ICP differencing: 
 
 Scott et al: (2018): https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JB015581
+
 Nissen et al: (2014): http://www.sciencedirect.com/science/article/pii/S0012821X14005378
+
 Nissen et al: (2012): http://onlinelibrary.wiley.com/doi/10.1029/2012GL052460/full
 
 
