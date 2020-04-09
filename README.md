@@ -2,12 +2,18 @@
 Matlab code and earthquake topography datasets to experiment with ICP 3D differencing
 
 Contents: 
-1. Lecture slides about ICP 3D differencing
-2. Matlab code that performs windowed ICP and plots the results. There are several Matlab files listed in the included Matlab script that must be downloaded from MathWorks. 
-3. Pre and post 2016 M7 Kumamoto, Japan, Earthquake las datasets. These are read by the Matlab code.  
+Matlab code that performs windowed ICP and plots the results. There are several Matlab files listed in the included Matlab script that must be downloaded from MathWorks. 
 
 
-The Kumamoto datasets can be downloaded from OpenTopography: 
+To perform the ICP Differencing: 
+1. Download the Matlab scripts and download the list functions from Mathworks
+2. Download already processed datasets for the Kumamoto earthquake here: https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses%2FA2HRT_RCN%2FKumamoto_Lidar.zip
+or process your own lidar data given the links below. 
+3. Put the downloaded las lidar datasets in the same directory has the Matlab scripts. 
+4. Run ICP on Matlab. It will probably take 10-30 minutes depending your computer's processing speeds. 
+
+
+The full Kumamoto datasets are available from OpenTopography here: 
 
 Pre-earthquake: https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS.052018.2444.2
 
