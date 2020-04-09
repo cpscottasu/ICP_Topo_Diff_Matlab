@@ -22,6 +22,8 @@ Post-earthquake: https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS
 
 Several references for ICP differencing: 
 
+Presentation slides: https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses%2FA2HRT_RCN%2FICP_differncing_DEMO.pdf
+
 Scott et al: (2018): https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JB015581
 
 Nissen et al: (2014): http://www.sciencedirect.com/science/article/pii/S0012821X14005378
@@ -29,4 +31,4 @@ Nissen et al: (2014): http://www.sciencedirect.com/science/article/pii/S0012821X
 Nissen et al: (2012): http://onlinelibrary.wiley.com/doi/10.1029/2012GL052460/full
 
 
-Funding Acknowledgment:
+Funding Acknowledgment: OpenTopography is supported by the National Science Foundation under Award Numbers 1833703, 1833643 & 1833632
