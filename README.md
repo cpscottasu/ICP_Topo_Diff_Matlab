@@ -6,7 +6,7 @@ Matlab code that performs windowed ICP and plots the results. There are several 
 
 
 To perform the ICP Differencing: 
-1. Download the Matlab scripts and download the list functions from Mathworks
+1. Download the Matlab scripts (DifferencingMatlab.zip) and download the list functions from Mathworks
 2. Download already processed datasets for the Kumamoto earthquake here: https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses%2FA2HRT_RCN%2FKumamoto_Lidar.zip
 or process your own lidar data given the links below. 
 3. Put the downloaded las lidar datasets in the same directory has the Matlab scripts. 
