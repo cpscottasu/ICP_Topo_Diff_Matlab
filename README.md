@@ -6,11 +6,27 @@ Matlab code that performs windowed ICP and plots the results. There are several 
 
 
 To perform the ICP Differencing: 
-1. Download the Matlab scripts (DifferencingMatlab.zip) and download the list functions from Mathworks
-2. Download already processed datasets for the Kumamoto earthquake here: https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses%2FA2HRT_RCN%2FKumamoto_Lidar.zip
+
+1. Download the Matlab script differencing_matlab.m and open in Matlab. 
+
+2. Download these functions from Mathworks:
+
+Matlab ICP File Exchange (Jacob Wilm): 
+%https://www.mathworks.com/matlabcentral/fileexchange/27804-iterative-closest-point
+
+Lasdata File Exchange (Teemu Kumpumäki):
+%https://www.mathworks.com/matlabcentral/fileexchange/48073-lasdata
+
+3. Place the downloaded files in the same directory as differencing_matlab.m. 
+
+4. Download already processed datasets for the Kumamoto earthquake here: https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses%2FA2HRT_RCN%2FKumamoto_Lidar.zip
 or process your own lidar data given the links below. 
-3. Put the downloaded las lidar datasets in the same directory has the Matlab scripts. 
-4. Run ICP on Matlab. It will probably take 10-30 minutes depending your computer's processing speeds. 
+
+5. Put the downloaded lidar datasets in the same directory as the Matlab scripts. The Matlab ICP differencing script (differencing_matlab.m) assumes that the pre-earthquake file is called 'pre.las' and the post-earthquake file is called 'post.las'. 
+
+6. Run differencing_matlab.m on Matlab. It will probably take 10-30 minutes depending your computer's processing speeds. When it completes, Matlab will display a vector field map indicating the 3D displacements for the 2016 M7 Kumamoto, Japan. 
+
+7. To experiment further with ICP, change the sz parameter (Line 40). This is the window size/ resolution used in the ICP calculation. Also change the grd parameter (Line 41). This is spacing between the individual ICP measurements. 
 
 
 The full Kumamoto datasets are available from OpenTopography here: 
