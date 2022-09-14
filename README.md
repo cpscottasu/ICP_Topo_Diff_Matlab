@@ -35,6 +35,7 @@ Pre-earthquake: https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS.
 
 Post-earthquake: https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS.052018.2444.1
 
+YouTube video about 3D differencing: https://youtu.be/NtS82yQIITA
 
 Several references for ICP differencing: 
 
